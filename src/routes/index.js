@@ -26,7 +26,7 @@ const router = async () => {
     let render = routes[route] ? routes[route] : Error404; // si encuentra la ruta la devulve sino error
     
     content.innerHTML = await render();
-    console.log(content)
+    
     
 }
 
