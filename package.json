@@ -10,7 +10,7 @@
     "keywords": [
       "javascript"
     ],
-    "author": "Oscar Barajas <oscar@platzi.com>",
+    "author": "Federico Herrera <herrera3299@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "@babel/core": "^7.7.5",

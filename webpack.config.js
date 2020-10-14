@@ -32,7 +32,17 @@ module.exports = {
     ),
     new CopyWebpackPlugin([{
       from: './src/styles/styles.css',
-      to: ''
-    }])
+      to:''
+    },{
+      from: './src/styles/load.gif',
+      to:''
+    },
+    {
+      from: './src/styles/logo.png',
+      to:''
+    }
+  ])
+    
   ]
+  
 }

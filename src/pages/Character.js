@@ -1,6 +1,7 @@
 import getHash from '../utils/getHash';
 import getData from '../utils/getData';
 
+
 const Character = async () => {
   const id = getHash();
   const character = await getData(id);
@@ -20,6 +21,7 @@ const Character = async () => {
       </article>
     </div>
   `;
+  
   return view;
 };
 
