@@ -4,7 +4,7 @@ const Header = () => {
     <div class="Header-main">
         <div class="Header-logo">
             <h1>
-                <a href="/">
+                <a href="https://fedeherrera10.github.io/Curso-SPA-VanillaJS">
                 <img src="logo.png" alt="loading.." class="logo">
                 </a>
                 <span class="title">SPA Rick and Morthy</span>
